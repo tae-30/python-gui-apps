@@ -23,11 +23,11 @@ def button_action():  # 関数の定義 ※ボタンが押されたときの動�
 
 
 # 出力ラベルの作成
-label1 = tk.Label(window, text=odai, bg=bg_color, fg=fg_color, font=("Helvetica", 24))
+label1 = tk.Label(window, text=odai, bg=bg_color, fg=fg_color)
 label1.pack(pady=10)
 
 # 入力フィールドの作成
-entry1 = tk.Entry(window, bg=fg_color, fg=bg_color, font=("Helvetica", 24))
+entry1 = tk.Entry(window, bg=fg_color, fg=bg_color)
 entry1.pack(pady=10)
 
 # ボタンの作成
