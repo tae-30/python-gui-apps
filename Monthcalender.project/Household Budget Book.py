@@ -10,12 +10,13 @@ fg_color = "white"
 highlight_color = "white"
 
 row_cou = 3
-today = datetime.today()
+# today = datetime.today()
 
 
 # エンターが押されたときに新しい入力欄を作成し計算する処理
 def enter_action(event):
     global row_cou
+    today = datetime.today()
     try:
         money = int(money_entry.get())
         money2 = int(money_entry2.get())
